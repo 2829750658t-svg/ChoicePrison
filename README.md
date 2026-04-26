@@ -2,6 +2,8 @@
 
     "Called a 'Prison', but it's actually a playground. I wanted to force a binary choice, but then realized I couldn't even choose for myself—so the third option is back."
 
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/2829750658t-svg/ChoicePrison?color=green&label=Latest%20Version)
+
 ## 开发者寄语 / Developer's Note
 
 这是一名 MBTI 爱好者兼 Java 学习者开发的测试软件。如果你和我一样对性格分析感兴趣，欢迎来到这个“性格监狱”游乐场！
