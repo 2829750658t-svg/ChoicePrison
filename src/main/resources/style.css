@@ -1,0 +1,25 @@
+/* 基础状态：白底 + 圆角 */
+.back-btn {
+    -fx-background-color: white;
+    -fx-background-radius: 20;
+    -fx-background-insets: 0;    /* 确保背景没有偏移 */
+    -fx-cursor: hand;            /* 鼠标变小手 */
+}
+
+/* 悬停状态：变灰色 */
+.back-btn:hover {
+    -fx-background-color: #E0E0E0;
+}
+
+/* 点击状态：稍微深一点，增加反馈 */
+.back-btn:pressed {
+    -fx-background-color: #CCCCCC;
+}
+
+.root {
+    -fx-font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+.label {
+    -fx-font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+}

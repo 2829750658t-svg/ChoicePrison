@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="600.0" prefWidth="620.0" spacing="15.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <ImageView fx:id="resultImageView" fitHeight="301.0" fitWidth="292.0" pickOnBounds="true" preserveRatio="true">
+            <VBox.margin><Insets bottom="5.0" /></VBox.margin>
+            <image>
+                <Image url="@../images/ENTJ.png" />
+            </image>
+        </ImageView>
+
+        <Label fx:id="resultTitleLabel" alignment="CENTER" prefHeight="64.0" prefWidth="547.0" text="ENTJ" textAlignment="CENTER" textFill="#1d1d1f">
+            <font>
+                <Font name="Gill Sans Ultra Bold" size="47.0" />
+            </font>
+        </Label>
+
+        <Label fx:id="ratioLabel" text="E 75% | N 60% | T 80% | J 90%" textFill="#86868b">
+            <font><Font name="Microsoft YaHei Light" size="14.0" /> </font>
+        </Label>
+
+        <Label fx:id="introLabel" maxWidth="500.0" minHeight="80.0" style="-fx-text-alignment: center;" text="你是一个天生的领导者，拥有强大的意志力。" textAlignment="RIGHT" textFill="#424245" wrapText="true">
+            <font><Font name="Microsoft YaHei UI Light" size="26.0" /></font>
+            <VBox.margin><Insets top="10.0" /></VBox.margin>
+        </Label>
+    </children>
+    <padding>
+        <Insets bottom="40.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+</VBox>
